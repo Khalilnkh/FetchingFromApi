@@ -1,0 +1,47 @@
+.weather-icon {
+    width: 170px;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.location {
+    margin: 15px 10px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+    gap: 30px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+
+}
+
+img {
+    width: 40px;
+  
+    margin-left: 40px;
+}

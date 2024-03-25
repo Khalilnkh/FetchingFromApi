@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(135deg, rgb(205, 78, 39), rgb(79, 7, 89));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.card {
+  width: 100%;
+  max-width: 370px;
+  height: 100vh;
+  background: linear-gradient(180deg, rgb(21, 22, 39), rgb(176, 209, 215));
+  color: white;
+  border-radius: 6px;
+  padding: 40px 35px;
+  text-align: center;
+
+}
+
+.error {
+  color: white;
+  margin-top: 240px;
+  font-size: 50px;
+  font-weight: bold;
+}
